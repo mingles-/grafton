@@ -29,7 +29,7 @@ src/
     js/                 -- project code
         actions/        -- actions for retreiving from API
         components/     -- 'Dumb' Components such as HTML  
-        reducers/       -- Company reducer  
+        reducers/       -- reducer  
 ```
 
 ## installation

@@ -27,15 +27,19 @@ I've used a Redux architecture, this gives a unidirectional data flow and a cent
 src/
     static/             -- static files such as images
     js/                 -- project code
-        actions/        -- actions for retreiving from API
-        containers/     -- Components such as controllers
+        actions/        -- actions for retrieving from API
+        containers/     -- components for displaying the data
         reducers/       -- reducer  
 ```
 
 ## installation
 
+Install the dependencies in the local node_modules folder.
 ```
 npm install
+```
+
+Run the application in the browser.
 ```
 npm run dev
 ```

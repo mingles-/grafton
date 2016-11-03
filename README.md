@@ -28,11 +28,14 @@ src/
     static/             -- static files such as images
     js/                 -- project code
         actions/        -- actions for retreiving from API
-        components/     -- 'Dumb' Components such as HTML  
+        containers/     -- Components such as controllers
         reducers/       -- reducer  
 ```
 
 ## installation
 
-``` npm install ```
-``` npm run dev ```
+```
+npm install
+```
+npm run dev
+```

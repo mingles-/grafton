@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+/* Navbar CSS */
+body {
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: white;
+    width: 100%;
+    padding-top: 70%;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+a {
+    text-decoration:none;
+}
+
+.orangeButton {
+    padding: 10px;
+    background: #F9692D;
+    border-radius: 25px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+}
+
+/* Responsive CSS */
+
+[class*="col-"] {
+    float: left;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 33.33%;
+
+}
+
+@media only screen and (min-width: 450px) {
+    /* For tablets: */
+    .col-m-1 {
+        width: 8.33%;
+    }
+
+    .col-m-2 {
+        width: 16.66%;
+    }
+
+    .col-m-3 {
+        width: 25%;
+    }
+
+    .col-m-4 {
+        width: 33.33%;
+    }
+
+    .col-m-5 {
+        width: 41.66%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+
+    .col-m-7 {
+        width: 58.33%;
+    }
+
+    .col-m-8 {
+        width: 66.66%;
+    }
+
+    .col-m-9 {
+        width: 75%;
+    }
+
+    .col-m-10 {
+        width: 83.33%;
+    }
+
+    .col-m-11 {
+        width: 91.66%;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+
+    h1 {
+        top: 50px;
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    h1 {
+        top: 50px;
+        font-size: 4em;
+    }
+}
